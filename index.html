@@ -10,10 +10,20 @@
         body{
             margin: 0;
         }
+
+        .rr-menu{
+            color: white;
+        }
+
+        .rr-menu:hover{
+            background-color: rgba(255, 255, 255, 0.76);
+            color: #f33535;            
+        }
     </style>
 </head>
 <body>
-          <nav class="navbar fixed-top  navbar-expand-lg py-1" style="background:linear-gradient(#5f8c23,#9ac661);">
+    <div class="container-fluid p-0 fixed-top" style="z-index: 9999;">
+        <nav class="navbar navbar-expand-lg py-1" style="background:linear-gradient(#5f8c23,#9ac661);">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="/Images/RT-Logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
@@ -24,62 +34,25 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
               <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item mx-auto">
-                  <a class="nav-link active text-white fs-5 px-3" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link active fs-5 px-3 rounded-1 rr-menu" aria-current="page" href="#">HOME</a>
                 </li>
                 <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3 hover-bg-white rounded-5" href="#">OUR STORY</a>
+                  <a class="nav-link fs-5 px-3 rounded-1 rr-menu" href="#">OUR STORY</a>
                 </li>
                 <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">AMENITIES</a>
+                  <a class="nav-link fs-5 px-3 rounded-1 rr-menu" href="#">AMENITIES</a>
                 </li>
                 <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">ACTIVITIES</a>
+                  <a class="nav-link fs-5 px-3 rounded-1 rr-menu" href="#">ACTIVITIES</a>
                 </li>
                 <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">RATES & RESERVATION</a>
+                  <a class="nav-link fs-5 px-3 rounded-1 rr-menu" href="#">RATES & RESERVATION</a>
                 </li>
                 <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">GALLARY</a>
+                  <a class="nav-link fs-5 px-3 rounded-1 rr-menu" href="#">GALLARY</a>
                 </li>
                 <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">CONTACT US & DIRECTION</a>
-                </li>
-              </ul>              
-            </div>
-          </div>
-        </nav>
-    <div class="container-fluid p-0 position-relative">
-      <div class="container-fluid p-0 position-absolute top-0 start-0" style="z-index: 9999;">
-        <nav class="navbar navbar-expand-lg py-1 invisible" style="background:linear-gradient(#5f8c23,#9ac661);">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="/Images/RT-Logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item mx-auto">
-                  <a class="nav-link active text-white fs-5 px-3" aria-current="page" href="#">HOME</a>
-                </li>
-                <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">OUR STORY</a>
-                </li>
-                <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">AMENITIES</a>
-                </li>
-                <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">ACTIVITIES</a>
-                </li>
-                <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">RATES & RESERVATION</a>
-                </li>
-                <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">GALLARY</a>
-                </li>
-                <li class="nav-item mx-auto">
-                  <a class="nav-link text-white fs-5 px-3" href="#">CONTACT US & DIRECTION</a>
+                  <a class="nav-link fs-5 px-3 rounded-1 rr-menu" href="#">CONTACT US</a>
                 </li>
               </ul>
               
@@ -88,15 +61,16 @@
         </nav>
         <div class="container-fluid" style="background-color: #5e8c23e3;">
           <h3 class="text-white py-2 d-flex justify-content-between">
-            <span>Special Offer </span>
-            <span>Special Offer </span>
-            <span>Special Offer </span>
-            <span>Special Offer </span>
-            <span>Special Offer </span>
-            <span>Special Offer </span>
+            <span>Special Offer</span>
+            <span>Special Offer</span>
+            <span>Special Offer</span>
+            <span>Special Offer</span>
+            <span>Special Offer</span>
+            <span>Special Offer</span>
           </h3>
         </div>
       </div>
+    <div class="container-fluid p-0">
       <div class="container-fluid px-0">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
